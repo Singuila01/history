@@ -25,6 +25,7 @@
 
         <div class="article">
             <div class="zones histoires">
+                <h2>Choisissez votre histoire</h2>
                 <div class="zone">
                     <ul>
                         <li><a href="">Histoire d'amour</a></li>
@@ -34,8 +35,13 @@
                 </div>
             </div>
         </div>
+
+        <div class="article">
+            <div class="zones">
+                <div class="zone"></div>
+            </div>
+        </div>
     </section>
 
-    <?php include 'inc/footer.php' ?>
 </body>
 </html>
