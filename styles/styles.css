@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: "Roboto"; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(35deg, rgba(9,9,176,1) 0%, rgba(5,43,139,1) 45%, rgba(0,85,162,1) 100%);
+}
+header ul, footer ul{
+    font-weight: bold;
+    padding: 10px;
+}
+header ul li, footer ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+header ul li.li-right, footer ul li.li-right{
+    float: right;
+}
+header a, footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+    font-size: 25px;
+}
+
+section{
+    color: #fff;
+    background: #000031;
+}
+.article{
+    padding: 10px;
+}
+.article .zones.presentation{
+    width: 50%;
+    margin: auto;
+}
+.article .zones h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.article .zones .present{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.article .zones .present .zone{
+    padding: 10px;
+}
+.article .zones .present img{
+    height: auto;
+    width: 50%;
+}
+
+.article .zones.histoires{
+    margin: auto;
+    width: 50%;
+}
+.article .zones.histoires ul{
+    display: inline;
+    text-align: center;
+}
+.article .zones.histoires ul li{
+    list-style-type: none;
+    padding: 10px;
+}
