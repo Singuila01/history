@@ -25,13 +25,17 @@
 
         <div class="article">
             <div class="zones histoires">
-                <ul>
-                    <li><a href="">Histoire d'amour</a></li>
-                    <li><a href="">L'amitié n'a pas de limite</a></li>
-                    <li><a href="">Où-est passé l'amour ?</a></li>
-                </ul>
+                <div class="zone">
+                    <ul>
+                        <li><a href="">Histoire d'amour</a></li>
+                        <li><a href="">L'amitié n'a pas de limite</a></li>
+                        <li><a href="">Où-est passé l'amour ?</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
+
+    <?php include 'inc/footer.php' ?>
 </body>
 </html>
