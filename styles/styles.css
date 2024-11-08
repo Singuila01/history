@@ -80,6 +80,10 @@ section{
     background: #00006e;
     border-radius: 15px;
 }
+.article .zones.histoires ul li:hover{
+    background: #00009c;
+    transition: 0.15s;
+}
 .article .zones.histoires ul li a{
     color: #fff;
     text-decoration: none;
