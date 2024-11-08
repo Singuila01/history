@@ -28,6 +28,9 @@ header a, footer a{
     padding: 0 20px 0 0;
     font-size: 25px;
 }
+footer{
+    background-color: #000031;
+}
 
 section{
     color: #fff;
@@ -63,11 +66,21 @@ section{
     margin: auto;
     width: 50%;
 }
+.article .zones.histoires .zone{
+    margin: auto;
+}
 .article .zones.histoires ul{
-    display: inline;
+    display: inline-flex;
     text-align: center;
+    gap: 15px;
 }
 .article .zones.histoires ul li{
     list-style-type: none;
     padding: 10px;
+    background: #00006e;
+    border-radius: 15px;
+}
+.article .zones.histoires ul li a{
+    color: #fff;
+    text-decoration: none;
 }
