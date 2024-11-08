@@ -1,13 +1,21 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
-
+@font-face {
+    font-family: "FiraCode";
+    src: url(../assets/fonts/FiraCode/FiraCode-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
 *{
     padding: 0;
     margin: 0;
-    /* font-family: "Roboto"; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto";
+    /* font-family: "FiraCode"; */
 }
 
 header{
+    color: #fff;
     height: 100vh;
     background: linear-gradient(35deg, rgba(9,9,176,1) 0%, rgba(5,43,139,1) 45%, rgba(0,85,162,1) 100%);
 }
@@ -28,6 +36,20 @@ header a, footer a{
     padding: 0 20px 0 0;
     font-size: 25px;
 }
+header .texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+header .texte span{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+header h1{
+    text-align: center;
+    margin-top: auto;
+}
 footer{
     background-color: #000031;
 }
@@ -38,6 +60,7 @@ section{
 }
 .article{
     padding: 10px;
+    margin: auto;
 }
 .article .zones.presentation{
     width: 50%;
@@ -62,29 +85,49 @@ section{
     width: 50%;
 }
 
-.article .zones.histoires{
-    margin: auto;
-    width: 50%;
-}
-.article .zones.histoires .zone{
-    margin: auto;
-}
 .article .zones.histoires ul{
-    display: inline-flex;
-    text-align: center;
-    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .article .zones.histoires ul li{
     list-style-type: none;
-    padding: 10px;
-    background: #00006e;
+    width: 20%;
+    background: #070763;
+    padding: 20px;
     border-radius: 15px;
+    transition: 0.3s;
 }
 .article .zones.histoires ul li:hover{
-    background: #00009c;
-    transition: 0.15s;
+    background: #1a1a94;
 }
 .article .zones.histoires ul li a{
+    display: flex;
+    position: relative;
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.article .zones.histoires ul li a::after{
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    display: inline-block;
+    transition: 0.3s;
+}
+.article .zones.histoires ul li a:hover::after{
+    content: "\A";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 3.5px;
+    padding: 3.5px;
+    background: #ffffff;
+    display: inline-block;
 }
