@@ -10,9 +10,12 @@
     <header>
         <ul>
             <li><a href="">Home</a></li>
-            <li><a href="">Les histoires</a></li>
             <li class="li-right"><a href="">Mon compte</a></li>
+            <li class="li-right"><a href="">Les histoires</a></li>
         </ul>
+        <div class="texte">
+            <h1>Les histoires <span>à partager</span> et <span>à vivre</span>.</h1>
+        </div>
     </header>
 </body>
 </html>
