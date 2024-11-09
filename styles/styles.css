@@ -14,10 +14,12 @@
     /* font-family: "FiraCode"; */
 }
 
+
 header{
     color: #fff;
     height: 100vh;
-    background: linear-gradient(35deg, rgba(9,9,176,1) 0%, rgba(5,43,139,1) 45%, rgba(0,85,162,1) 100%);
+    background-color: #000031;
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
 }
 header ul, footer ul{
     font-weight: bold;
@@ -56,7 +58,8 @@ footer{
 
 section{
     color: #fff;
-    background: #000031;
+    background-color: #000031;
+
 }
 .article{
     padding: 10px;
