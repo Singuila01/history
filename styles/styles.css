@@ -14,6 +14,10 @@
     /* font-family: "FiraCode"; */
 }
 
+section{
+    background: #fff;
+}
+
 header ul{
     display: flex;
     width: 100%;
@@ -46,4 +50,41 @@ header .texte{
 }
 header .texte h1{
     padding: 30px;
+    color: #000;
+}
+
+.article{
+    margin: 15px;
+}
+.article h2{
+    text-align: center;
+}
+.article .zones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+img{
+    height: 250px;
+}
+
+@media (prefers-color-scheme: dark){
+    body, section{
+        background: #1b1b1b;
+        color: #fff;
+    }
+
+    header ul li:hover{
+        border-bottom: 3px solid #fff;
+    }
+    header ul li a{
+        color: #fff;
+    }
+    header .texte h1{
+        color: #fff;
+    }
+    
 }
