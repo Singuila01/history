@@ -47,6 +47,8 @@ header .texte{
     justify-content: center;
     align-items: center;
     margin: auto;
+    background: url(../assets/img/cartographer.png);
+    padding: 50px 0;
 }
 header .texte h1{
     padding: 30px;
@@ -59,6 +61,7 @@ header .texte h1{
 .article h2{
     text-align: center;
     padding: 15px;
+    font-size: 30px;
 }
 .article .zones{
     display: grid;
@@ -66,6 +69,8 @@ header .texte h1{
     gap: 40px;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    margin: auto;
 }
 .article .zones.theme{
     display: grid;
@@ -75,8 +80,16 @@ header .texte h1{
     align-items: center;
     padding: 15px;
     text-align: center;
-    width: 50%;
+    width: 20%;
     margin: auto;
+}
+.article .zones .zone > p > span{
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: 700;
+}
+.article .zones .zone > p > span:hover{
+    font-style: italic;
 }
 .article .zones.theme .zone a{
     color: white;
