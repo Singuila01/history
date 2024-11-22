@@ -13,7 +13,7 @@
             <h2>Présentation</h2>
             <div class="zones">
                 <div class="zone">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur id cum cupiditate architecto deserunt ratione totam vitae! Iste sint, quisquam nisi nostrum ipsa, possimus corporis accusamus earum id quo voluptas corrupti eum molestiae. Fugiat, quasi non officia ex natus inventore dolorum fugit eum! Porro optio non aspernatur rem vel temporibus, atque, laboriosam cupiditate illo aut obcaecati dolorem consequuntur accusantium sint saepe hic autem numquam adipisci suscipit laudantium. Inventore, sunt. Qui dolorem laboriosam aut necessitatibus. Eveniet fugiat a quaerat nihil ab!</p>
+                    <p><span>Aventure Chronique</span> est une plateforme immersive et interactive où les utilisateurs peuvent vivre des aventures narratives captivantes. L’objectif est de plonger les utilisateurs dans des histoires qu’ils influencent eux-mêmes, en fonction des choix qu’ils effectuent. Le site propose un univers visuel attrayant, avec des graphismes soignés et une ambiance sonore adaptée à chaque scène pour renforcer l'immersion.</p>
                 </div>
                 <div class="zone">
                     <img src="./assets/img/cartographer.png" alt="">
