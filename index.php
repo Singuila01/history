@@ -20,6 +20,20 @@
                 </div>
             </div>
         </div>
+        <div class="article">
+            <h2>Les grands thèmes</h2>
+            <div class="zones theme">
+                <div class="zone un">
+                    <a href="">Amitié</a>
+                </div>
+                <div class="zone deux">
+                    <a href="">Amour</a>
+                </div>
+                <div class="zone trois">
+                    <a href="">Famille</a>
+                </div>
+            </div>
+        </div>
     </section>
 
 </body>
