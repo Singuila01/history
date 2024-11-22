@@ -76,11 +76,10 @@ header .texte h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    justify-content: center;
-    align-items: center;
+    justify-content: stretch;
+    align-items: stretch;
     padding: 15px;
     text-align: center;
-    width: 20%;
     margin: auto;
 }
 .article .zones .zone > p > span{
@@ -91,12 +90,24 @@ header .texte h1{
 .article .zones .zone > p > span:hover{
     font-style: italic;
 }
-.article .zones.theme .zone a{
+.article .zones.theme .zone{
     color: white;
     text-decoration: none;
     background: #4d4d4d;
     padding: 15px;
     border-radius: 25px;
+    transition: 0.15s;
+    gap: 20px;
+    
+}
+.article .zones.theme .zone a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.15s;
+}
+.article .zones.theme .zone a:hover{
+    background: #3a3a3a;
 }
 img{
     height: 250px;
