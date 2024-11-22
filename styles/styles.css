@@ -18,6 +18,10 @@ section{
     background: #fff;
 }
 
+header{
+    background: url(../assets/img/rennes.jpg) no-repeat center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
 header ul{
     display: flex;
     width: 100%;
@@ -25,6 +29,7 @@ header ul{
     align-items: center;
     margin: auto;
     padding: 10px 0;
+    background: #1b1b1bc4;
 }
 header ul li{
     list-style-type: none;
@@ -47,7 +52,7 @@ header .texte{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background: url(../assets/img/cartographer.png);
+    /* background: url(../assets/img/cartographer.png); */
     padding: 50px 0;
 }
 header .texte h1{
@@ -71,6 +76,9 @@ header .texte h1{
     align-items: center;
     width: 50%;
     margin: auto;
+}
+.article .zones.presen img{
+    aspect-ratio: 16 / 9;
 }
 .article .zones.theme{
     display: grid;
@@ -127,6 +135,8 @@ img{
     }
     header .texte h1{
         color: #fff;
+        text-shadow: 0px 0px 30px #000000;
+        border-radius: 20px;
     }
     
 }
