@@ -58,6 +58,7 @@ header .texte h1{
 }
 .article h2{
     text-align: center;
+    padding: 15px;
 }
 .article .zones{
     display: grid;
@@ -65,7 +66,24 @@ header .texte h1{
     gap: 40px;
     justify-content: center;
     align-items: center;
+}
+.article .zones.theme{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.article .zones.theme .zone a{
+    color: white;
+    text-decoration: none;
+    background: #4d4d4d;
+    padding: 15px;
+    border-radius: 25px;
 }
 img{
     height: 250px;
