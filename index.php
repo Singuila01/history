@@ -25,12 +25,15 @@
             <div class="zones theme">
                 <div class="zone un">
                     <a href="">Amitié</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam, quia molestiae nostrum repellat soluta corrupti culpa qui expedita exercitationem.</p>
                 </div>
                 <div class="zone deux">
                     <a href="">Amour</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum cum placeat laudantium quis repudiandae iure corporis exercitationem eveniet vitae praesentium!</p>
                 </div>
                 <div class="zone trois">
                     <a href="">Famille</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum odit magnam odio, excepturi itaque unde incidunt veritatis mollitia accusamus sed.</p>
                 </div>
             </div>
         </div>
