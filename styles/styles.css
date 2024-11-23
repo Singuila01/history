@@ -132,6 +132,13 @@ header .texte h1{
 .article .zones.theme .zone p{
     padding: 10px;
 }
+
+.article .zones.histoire{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+}
+
 img{
     height: 250px;
 }
