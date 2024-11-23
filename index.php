@@ -24,15 +24,15 @@
             <h2>Les grands thèmes</h2>
             <div class="zones theme">
                 <div class="zone un">
-                    <a href="">Amitié</a>
+                    <a href="histoire/ami/index.php">Amitié</a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magnam, quia molestiae nostrum repellat soluta corrupti culpa qui expedita exercitationem.</p>
                 </div>
                 <div class="zone deux">
-                    <a href="">Amour</a>
+                    <a href="histoire/amour/index.php">Amour</a>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum cum placeat laudantium quis repudiandae iure corporis exercitationem eveniet vitae praesentium!</p>
                 </div>
                 <div class="zone trois">
-                    <a href="">Famille</a>
+                    <a href="histoire/famille/index.php">Famille</a>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum odit magnam odio, excepturi itaque unde incidunt veritatis mollitia accusamus sed.</p>
                 </div>
             </div>
