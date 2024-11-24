@@ -139,6 +139,15 @@ header .texte h1{
     width: 80%;
 }
 
+.article .zones.formulaire{
+    display: block;
+}
+.article .zones.formulaire .form{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
 img{
     height: 250px;
 }
