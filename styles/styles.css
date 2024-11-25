@@ -68,7 +68,7 @@ header .texte h1{
     padding: 15px;
     font-size: 30px;
 }
-.article .zones{
+.article .zones.presen{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
@@ -89,6 +89,7 @@ header .texte h1{
     padding: 15px;
     text-align: center;
     margin: auto;
+    width: 50%;
 }
 .article .zones .zone > p > span{
     cursor: pointer;
@@ -139,13 +140,21 @@ header .texte h1{
     width: 80%;
 }
 
-.article .zones.formulaire{
-    display: block;
-}
 .article .zones.formulaire .form{
-    width: 100%;
+    background-color: #3a3a3a;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
     margin: auto;
-    display: block;
+}
+.article .zones.formulaire .form input, .article .zones.formulaire .form textarea, .article .zones.formulaire .form select{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+.article .zones.formulaire .form select{
+    text-align: center;
 }
 
 img{
