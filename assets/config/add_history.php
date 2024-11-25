@@ -17,7 +17,51 @@
                     <form action="add_history.php" method="post">
                         <input type="text" name="titre" id=""><br>
                         <textarea name="description" id=""></textarea><br>
-                        <button type="submit">Ajouter une histoire</button>
+                        <?php 
+                        require_once './database.php';
+                        $db = connectDB("localhost", "history", "root", "");
+
+                        $sql = "SELECT * FROM type_histoires";
+                        $stmt = $db->prepare($sql);
+                        $stmt->execute();
+
+                        $liste_type = [];
+
+                        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                            $liste_type = $row;
+                        }
+
+                        foreach ($liste_type as $type){
+                            echo $type['libelle_type_histoire'];
+                        }
+                        
+                        ?>
+                        
+                        <select name="" id="">
+                            <?php
+                                require_once './database.php';
+                                $db = connectDB("localhost", "history", "root", "");
+
+                                $sql = "SELECT * FROM type_histoires";
+                                $stmt = $db->prepare($sql);
+                                $stmt->execute();
+
+                                $liste_type = [];
+
+                                while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                                    $liste_type = $row;
+                                }
+
+                                foreach ($liste_type as $type){
+                                    echo $type['libelle_type_histoire'];
+                                }
+
+                                foreach ($liste_type as $type_histoire) : 
+                            ?>
+                            <option value="<?= htmlspecialchars($type_histoire['id_type']) ?>"><?= htmlentities($type_histoire['libelle_type_histoire'])?></option>
+                            <?php endforeach; ?>
+                        </select><br>
+                        <input type="submit" value="Envoyer" name="go" />
                     </form>
                 </div>
             </div>
@@ -27,10 +71,10 @@
 </html>
 
 <?php
-require_once 'config/database.php';
-$db = connectDB("localhost", "moyenne_finale", "root", "");
+require_once 'database.php';
+$db = connectDB("localhost", "history", "root", "");
 
-if (condition) {
+if(isset($_POST['go']) AND $_POST['go']=='Envoyer') {
     $title = $_POST['titre'];
     $description = $_POST['description'];
     $id_type_histoire = $_POST[''];
