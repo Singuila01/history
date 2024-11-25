@@ -16,27 +16,7 @@
                 <div class="form">
                     <form action="add_history.php" method="post">
                         <input type="text" name="titre" id=""><br>
-                        <textarea name="description" id=""></textarea><br>
-                        <?php 
-                        require_once './database.php';
-                        $db = connectDB("localhost", "history", "root", "");
-
-                        $sql = "SELECT * FROM type_histoires";
-                        $stmt = $db->prepare($sql);
-                        $stmt->execute();
-
-                        $liste_type = [];
-
-                        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                            $liste_type = $row;
-                        }
-
-                        foreach ($liste_type as $type){
-                            echo $type['libelle_type_histoire'];
-                        }
-                        
-                        ?>
-                        
+                        <textarea name="description" id=""></textarea><br>                        
                         <select name="" id="">
                             <?php
                                 require_once './database.php';
@@ -49,7 +29,7 @@
                                 $liste_type = [];
 
                                 while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-                                    $liste_type = $row;
+                                    $liste_type[] = $row;
                                 }
 
                                 foreach ($liste_type as $type){
