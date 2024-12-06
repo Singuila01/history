@@ -157,6 +157,10 @@ header .texte h1{
     text-align: center;
 }
 
+.article .zones.account{
+    font-size: 28px;
+}
+
 img{
     height: 250px;
 }
