@@ -10,7 +10,7 @@
     <header>
         <ul>
             <li><a href="http://localhost/history/index.php">Home</a></li>
-            <li class="li-right"><a href="">Mon compte</a></li>
+            <li class="li-right"><a href="http://localhost/history/account.php">Mon compte</a></li>
             <li class="li-right"><a href="">Les histoires</a></li>
         </ul>
         <div class="texte">
